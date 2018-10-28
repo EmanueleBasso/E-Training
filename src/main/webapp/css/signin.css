@@ -1,0 +1,34 @@
+.container{
+	margin-top: 50px;
+	padding: 0px;
+	border-radius: 10px;
+	background-color: white;
+  width: calc(100% - 300px);
+  border: 1px solid black;
+}
+
+h1{
+	text-align: center;
+}
+
+.background{
+	background-color: #72A7C8;
+	width: 100%;
+  height: 40vh;
+  z-index: -1;
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+}
+
+.popover{
+  background-color: #b6d1e2 !important;
+  width: 200px !important;
+}
+
+.arrow:after{
+  border-right-color: #b6d1e2 !important;
+  border-top-color: transparent !important;
+  border-bottom-color: transparent !important;
+}
